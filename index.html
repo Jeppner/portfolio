@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jess | Front-End Developer">
+    <meta name="keywords" content="Web Development, Web Developer, Web Designer">
+    <meta name="author" content="Jessica Heppner">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1cf9774ea.js" crossorigin="anonymous"></script>    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Jess, Front-End Developer</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="toTop" onclick="toTop()" aria-hidden="true" title="Go to toTop" id="toTopButton">
+            <i class="fas fa-chevron-up fa-2x toTopButton"></i>
+        </div>
+    </div>
+    <div class="burger" aria-hidden="true">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <header class="mainMenu">
+        <div class="brand">
+            <span id="logo" class="gradient-text">Jess</span>
+        </div>
+            <nav class="navbar">
+                <div class="navLinks">
+                    <ul>
+                        <a href="#intro"><li class="navLink">Hello</li></a>
+                        <a href="#about"><li class="navLink">About</li></a>
+                        <a href="#skills"><li class="navLink">Skills</li></a>
+                        <a href="#portfolio"><li class="navLink">Portfolio</li></a>
+                        <a href="#contact"><li class="navLink">Contact</li></a>
+                    </ul>
+                </div>
+            </nav>
+                <div class="socials">
+                    <i class="fa fa-github social"></i>
+                    <i class="fa fa-linkedin social"></i>
+                    <i class="fa fa-twitter social"></i>
+                </div>
+    </header>
+
+    <div class="innerPage">
+    <section id="intro">
+        <div class="container">
+            <div class="parent">
+                <div class="child">
+                    <h1 class="hello">Hello,
+                        <br>I'm <span class="gradient-text cursive jess">Jess</span></h1>
+                    <h5>An Aspiring web developer</h5>
+                    <a href="#contact"><button class="btn">Contact me</button></a>
+                    <div class="chevron"><i class="fas fa-chevron-down fa-5x"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="gradient-text cursive heading">About me</h2>
+            <div class="aboutBlurb">
+                <p class="blurb">I'm a 22 year old Canadian girl studying business administration, however, I've always loved working with computers and design. I've been studying web development since late 2021 and have a lot to learn but I'm having a lot of fun doing it!
+                    <br>Outside of web development, I enjoy art, video games, hiking, walking my dog, and drinking tea.</p>
+            </div>
+            </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="gradient-text cursive heading">Skills</h2>
+            <div class="skillsGrid">
+                <div class="skill"><i class="fa fa-html5 fa-2x"></i>HTML</div>
+                <div class="skill"><i class="fab fa-css3-alt fa-2x"></i>CSS</div>
+                <div class="skill"><i class="fab fa-js-square fa-2x"></i>JavaScript</div>
+                <div class="skill"><i class="fab fa-react fa-2x"></i>React</div>
+                <div class="skill"><i class="fab fa-php fa-2x"></i>PHP</div>
+                <div class="skill"><i class="fab fa-wordpress-simple fa-2x"></i>WordPress</div>
+                <div class="skill"><i class="fab fa-github fa-2x"></i>Github</div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="gradient-text cursive heading">Portfolio</h2>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="gradient-text cursive heading">Contact</h2>
+                <form action="" method="POST">
+                <div class="contactGrid">
+                    <div class="formGroup name">
+                        <label for="yourName">Your name</label>
+                        <input type="text" name="yourName" id="yourName" class="fieldInput">
+                    </div>
+                    <div class="formGroup email">
+                        <label for="yourEmail">Your email</label>
+                        <input type="email" name="yourEmail" id="yourEmail" class="fieldInput">
+                    </div>
+                    <div class="formGroup message">
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message" class="msgText"></textarea>
+                    </div>
+                    <div class="formGroup submitBtn">
+                        <button class="gradientBtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
