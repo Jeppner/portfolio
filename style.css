@@ -439,6 +439,9 @@ textarea:focus {
   .mainMenu {
     width: 100%;
   }
+  h5 {
+    font-size: 0.8rem;
+  }
   .skillsGrid {
     grid-template-columns: repeat(3, 1fr);
   }
