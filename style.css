@@ -483,9 +483,6 @@ textarea:focus {
       font-size: 4rem;
       margin-bottom: 0.1em;
     }
-    .child {
-      max-height: 60vh;
-    }
     section {
       margin-top: 1em;
     }
