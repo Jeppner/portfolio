@@ -370,6 +370,7 @@ label {
 }
 input,
 textarea {
+  min-height: 1.5em;
   border-radius: 10px;
   border: 0px;
   transition: 0.2s;
