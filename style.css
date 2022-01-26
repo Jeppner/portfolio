@@ -474,7 +474,7 @@ textarea:focus {
     display: none !important;
   }
   .socials {
-    margin: 0 0.3em;
+    margin: 0 0.9em;
   }
   @media screen and (max-width: 500px) {
     .chevron {
