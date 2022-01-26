@@ -473,6 +473,9 @@ textarea:focus {
   .toTop {
     display: none !important;
   }
+  .socials {
+    margin: 0 0.3em;
+  }
   @media screen and (max-width: 500px) {
     .chevron {
       display: none;
