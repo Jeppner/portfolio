@@ -433,9 +433,6 @@ textarea:focus {
   .child {
     max-height: 60vh;
   }
-  section:nth-of-type(1) {
-    margin: 0;
-  }
   section {
     margin-top: 1em;
   }
@@ -471,5 +468,46 @@ textarea:focus {
   }
   .toTop {
     display: none !important;
+  }
+  @media screen and (max-width: 500px) {
+    .chevron {
+      display: none;
+    }
+    .toTop {
+      display: none !important;
+    }
+    .hello {
+      font-size: 4rem;
+      margin-bottom: 0.1em;
+    }
+    .child {
+      max-height: 60vh;
+    }
+    section {
+      margin-top: 1em;
+    }
+    .mainMenu {
+      width: 100%;
+    }
+    .skillsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .name {
+      grid-column: 3 / 1;
+    }
+    .email {
+      grid-column: 3 / 1;
+    }
+    .navLink,
+    .social {
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      color: white;
+    }
+    .blurb,
+    label,
+    .skill:not(i) {
+      font-size: 1rem;
+    }
   }
 }
